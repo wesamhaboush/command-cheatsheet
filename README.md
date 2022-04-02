@@ -2,9 +2,11 @@
 Linux and other command line tools cheat sheet
 
 ```shell
-mogrify -format jpg MY-PNG-FILE.png
+# Convert png to jpg
+mogrify -format jpg image.png
 ```
 
 ```shell
-pdftoppm Bulldog.pdf Bulldog.pdf -png
+# Convert pdf to png
+pdftoppm image.pdf image.png -png
 ```
